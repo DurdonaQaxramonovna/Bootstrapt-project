@@ -12,6 +12,17 @@
     <header class="header">
       <nav class="navbar navbar-expand-lg navbar-light container">
         <img src="./img/Dummy Logo.svg" alt="" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
@@ -49,6 +60,81 @@
         </div>
       </div>
     </section>
+
+    <div class="about">
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <h5 class="carousel-title">We are experienced</h5>
+            <p class="carousel-subtitle">
+              We have been around for a long time since 2010, thousands of
+              products have been created, we are always here to provide new
+              innovations for you
+            </p>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <h5 class="carousel-title">We are experienced</h5>
+            <p class="carousel-subtitle">
+              We have been around for a long time since 2010, thousands of
+              products have been created, we are always here to provide new
+              innovations for you
+            </p>
+          </div>
+          <div class="carousel-item">
+            <h5 class="carousel-title">We are experienced</h5>
+            <p class="carousel-subtitle">
+              We have been around for a long time since 2010, thousands of
+              products have been created, we are always here to provide new
+              innovations for you
+            </p>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
 
     <section class="cliets text-center">
       <div class="container">
@@ -135,5 +221,6 @@
         </div>
       </div>
     </section>
+    <script src="./bootstrapt-links/bootstrap.bundle.min.js"></script>
   </body>
 </html>

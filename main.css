@@ -34,6 +34,12 @@
   border-radius: 35px;
   color: var(--main-color);
   margin-top: 20px;
+  transition: 0.3s;
+}
+.btn:hover {
+  color: #fafafa;
+  background-color: #14213d;
+  border: 1px solid var(--main-color);
 }
 
 .cliets {
@@ -126,6 +132,39 @@
   color: #fafafa;
   margin-top: 60px;
 }
+.work__process-btn:hover {
+  color: #14213d;
+  background-color: #fafafa;
+}
+
+.carousel {
+  background-image: url(./img/about-us.png);
+  width: 1039px;
+  height: 326px;
+  border-radius: 35px;
+  position: relative;
+  left: 200px;
+  bottom: 200px;
+}
+
+.carousel-title {
+  font-size: 36px;
+  line-height: 51px;
+  color: #ffffff;
+}
+
+.carousel-subtitle {
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.carousel-item {
+  position: relative;
+  left: 150px;
+  top: 55px;
+  z-index: 5;
+}
 
 @media (max-width: 768px) {
   .hero-img {
@@ -133,5 +172,8 @@
   }
   .work__process-img {
     margin-top: 70px;
+  }
+  .carousel {
+    display: none;
   }
 }
